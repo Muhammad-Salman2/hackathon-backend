@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "dev" : "node --watch index.js",
+    "dev2": "nodemon index.js"
+
+
+
   },
   "keywords": [],
   "type": "module",
